@@ -1,0 +1,27 @@
+/* Descendente: uma tag está dentro da outra */
+table h2{
+    color: darkorange;
+}
+
+/* Filho: tag está imediatamente dentro da outra*/
+div > p{
+    background-color: aqua;
+}
+
+/* Irmão adjascente: o próximo item recebe o código */
+#ProximoParagrafo + p{
+    font-size: 1.5em;
+}
+
+/* Irmão Geral: todos a partir dele recebem o código */
+#adj ~ p{
+    background-color: greenyellow;
+}
+
+img:hover{
+    filter: grayscale(100%);
+}
+
+p::first-letter{
+    font-size: 2em;
+}

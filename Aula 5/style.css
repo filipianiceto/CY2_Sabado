@@ -1,0 +1,14 @@
+h1, h2{
+    color: orangered;
+    text-align: center;
+}
+
+.paragrafos{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+#div_exemplo{
+    background-color: cornflowerblue;
+    height: 200px;
+}
