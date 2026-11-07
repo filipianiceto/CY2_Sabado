@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f2f2f2;
+    color: white;
+}
+
+/*Titulo*/
+.titulo{
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+}
+
+/*Menu de navegação (topnav)*/
+.topnav{
+    background-color: #444;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.topnav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+.topnav a:hover{
+    background-color: #777;
+}
+
+/*Três Colunas*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+/*Itens*/
+.item{
+    background-color: white;
+    text-align: center;
+    color: #444;
+    padding: 20px;
+}
+
+.item img{
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.item p{
+    font-size: 15px;
+    font-weight: bold;
+}
